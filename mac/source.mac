@@ -1,5 +1,5 @@
 # Xray source (defined using a histogram to define the energy distribution)
-
+#
 /gate/source/addSource xraygun
 /gate/source/verbose 0
 /gate/source/xraygun/setActivity 350000. becquerel
