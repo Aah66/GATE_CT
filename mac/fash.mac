@@ -1,6 +1,6 @@
 /gate/world/daughters/name fash
 /gate/world/daughters/insert ImageRegularParametrisedVolume 
-/gate/fash/geometry/setImage /home/s1606384/GATE-build/Gate-8.2/FBCT_phantom_cluster/abdomen_supine.dcm
+/gate/fash/geometry/setImage abdomen_supine.dcm
 /gate/fash/geometry/setRangeToMaterialFile fashrange.dat
 /gate/fash/placement/setTranslation 0. 1. 0. mm
 /gate/fash/placement/setRotationAxis 1 0 0
