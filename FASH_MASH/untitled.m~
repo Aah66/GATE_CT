@@ -1,0 +1,5 @@
+data = read_fash_mash('/home/s1606384/GATE-build/Gate-8.2/FBCT_simulation/FASH_MASH/FASH_MASH_supine/fash3_sup_520x208x1354.dat.gz');
+reshape(data,[520 208 1354]);
+% dicomwrite(data,'/home/s1606384/GATE-build/Gate-8.2/FBCT_simulation/FASH_MASH/FASH_MASH_supine/fash.dcm');
+figure()
+imshow(data(160:360,24:208,100))
