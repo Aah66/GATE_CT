@@ -1,4 +1,4 @@
-/gate/geometry/setMaterialDatabase /home/s1606384/GATE-build/Gate-8.2/FBCT_phantom/data/MyMaterialDatabase.db
+/gate/geometry/setMaterialDatabase ../data/MyMaterialDatabase.db
 
 # World
 /gate/world/geometry/setXLength 1000. mm
